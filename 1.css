@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:black;
+    overflow-x: hidden;
+}
+img{
+   width:1000px;
+    height: 700px;
+    margin-left: 13%;
+    
+}
+.icons-social i {
+	font-size: 3em;
+	padding: 10px;
+}
+
+header {
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.22);
+	text-align: center;
+}
+
+html {
+	font-size: 12px;
+	font-family: 'Merriweather', serif;
+}
+
+h1 {
+	font-size: 3em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+@media (min-width: 576px) {
+	html {
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (min-width: 992px) {
+	html {
+		font-size: 18px;
+	}
+}
+
+@media (min-width: 1200px) {
+	html {
+		font-size: 20px;
+	}
+}
+
+h1, h2 {
+	font-weight: 400;
+}
+
+h1 .heavier {
+	font-weight: 700;
+}
+
+h3, html {
+	font-weight: 300;
+}
+
+
+
+
+header {
+	display: flex;
+	flex-direction: column;
+	min-height: 10vh;
+	align-items: center;
+	justify-content: center;
+
+}
+
+header > h1 {
+	margin-bottom: -5px;
+}
+
+/* Color */
+
+header {
+	
+	
+	color: white;
+}
+
+.icons-social a {
+	color: white;
+}
